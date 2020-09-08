@@ -1,38 +1,51 @@
 .App {
   text-align: center;
+
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main {
+  max-width: 1000;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* actions */
+#actions {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 0 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.tuile-elts {
+  width: 30%;
+  border: solid 2px rgba(255, 255, 255, 0.5);
+  padding: 5px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tuile-logo {
+  font-size: 50px;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.5);
+  padding: 10px 0;
+}
+
+.tuile-descriptions h2 {
+  text-transform: uppercase;
+  font-size: 1.3rem;
+}
+
+.tuile-descriptions p {
+  font-size: 12px;
+}
+
+.tuile-elts:nth-child(1){
+  background-color: rgb(28, 89, 160);
+}
+
+.tuile-elts:nth-child(2){
+  background-color: rgb(131, 45, 45);
+}
+
+.tuile-elts:nth-child(3){
+  background-color: rgb(37, 114, 37);
 }

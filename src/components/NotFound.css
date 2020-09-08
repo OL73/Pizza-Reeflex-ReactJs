@@ -1,0 +1,9 @@
+.notFound-elts {
+    background-color: chocolate;
+    height: 100vh;
+}
+.notFound-elts p {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}

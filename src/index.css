@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  height: 100vh;
+  background-image: url('./img/background-pizza.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {

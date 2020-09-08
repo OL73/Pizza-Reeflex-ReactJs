@@ -1,0 +1,20 @@
+header {
+    padding: 20px;
+}
+
+.header-elts {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.568);
+    color: rgb(51, 47, 47);
+}
+.header-elts div {
+    align-self: center;
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.link {
+    text-decoration: none;
+}
+

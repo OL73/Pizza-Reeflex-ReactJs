@@ -1,0 +1,20 @@
+.pizza-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pizza-details p {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.pizza-elt {
+    width: 45%;
+    background-color: #FFFFFF;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.pizza-image img {
+    width: 100%;
+}
